@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="c1" class="com.spring.maven_3.car">
+    <property name="name" value="abc"></property>
+    <property name="id" value="123"></property>
+    </bean>
+    <bean id="b1" class="com.spring.maven_3.bike">
+    <property name="name" value="xyz"></property>
+    <property name="id" value="456"></property>
+    </bean>
+</beans> vbgbbbbb6gt                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
