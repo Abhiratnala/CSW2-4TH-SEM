@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+ <bean id="Student_1" class="com.spring.maven_5.CSE">
+    	
+    	<constructor-arg name="name" value="Abhijeet"/>
+    	<constructor-arg name="roll" value="2096"/>
+    	
+    </bean>
+    
+     <bean id="Student_2" class="com.spring.maven_5.CSIT">
+    	
+    	<constructor-arg name="name" value="ABhignya"/>
+    	<constructor-arg name="roll" value="1003"/>
+    	
+    </bean>
+</beans>
